@@ -6,3 +6,8 @@
   background-color: #101728;
   font-family: 'Montserrat', sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}

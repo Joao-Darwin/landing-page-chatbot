@@ -1,0 +1,18 @@
+.button {
+    display: inline-block;
+    background: rgb(255, 60, 95);
+    background: linear-gradient(90deg, rgba(255, 60, 95, 1) 35%, rgba(147, 64, 255, 1) 100%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, rgba(147, 64, 255, 1) 35%, rgba(255, 60, 95, 1) 100%);
+}
