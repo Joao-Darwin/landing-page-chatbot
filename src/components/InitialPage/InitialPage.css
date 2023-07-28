@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    width: 25%;
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.tituloPageInicial {
+    margin-bottom: 20%;
+}
+
+.imgPageInicial {
+    max-width: 45%;
+    height: auto;
+}

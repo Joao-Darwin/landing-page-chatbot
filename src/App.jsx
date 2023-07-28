@@ -1,12 +1,14 @@
 import './App.css'
+import InitialPage from './components/InitialPage/InitialPage'
 import TopBar from './components/TopBar/TopBar'
+
 
 function App() {
 
   return (
     <>
       <TopBar />
-      <h1>Hello World</h1>
+      <InitialPage />
     </>
   )
 }
