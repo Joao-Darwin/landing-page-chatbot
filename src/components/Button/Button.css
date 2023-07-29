@@ -16,3 +16,14 @@
 .button:hover {
     background: linear-gradient(90deg, rgba(147, 64, 255, 1) 35%, rgba(255, 60, 95, 1) 100%);
 }
+
+/* Media query para tornar o botão responsivo para telas menores */
+@media (max-width: 769px) {
+    .button {
+        width: 300px;
+        font-size: 26px;
+        /* Reduzir o tamanho da fonte para tornar o botão responsivo */
+        padding: 8px 16px;
+        /* Reduzir o padding para ajustar o tamanho do botão */
+    }
+}

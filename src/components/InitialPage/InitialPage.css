@@ -1,7 +1,7 @@
 .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .text-container {
@@ -10,16 +10,36 @@
     font-weight: 800;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .tituloPageInicial {
-    margin-bottom: 20%;
+    margin-bottom: 20px;
 }
 
 .imgPageInicial {
-    max-width: 45%;
+    max-width: 100%;
     height: auto;
+}
+
+/* Media query para tablets e telas maiores */
+@media (min-width: 769px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .text-container {
+        width: 25%;
+        align-items: flex-start;
+        text-align: left;
+        margin: 0;
+        /* Remova a margem inferior para alinhar com a imagem */
+    }
+
+    .imgPageInicial {
+        max-width: 45%;
+    }
 }

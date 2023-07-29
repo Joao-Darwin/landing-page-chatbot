@@ -10,9 +10,20 @@
 }
 
 .nameSpan {
-    color: #9340FF
+    color: #9340FF;
 }
 
 .paragrafo {
     font-size: 20px;
+}
+
+/* Media query para ajustar o tamanho da fonte para telas menores, como tablets e smartphones */
+@media (max-width: 769px) {
+    .titulo {
+        font-size: 40px;
+    }
+
+    .paragrafo {
+        font-size: 16px;
+    }
 }
