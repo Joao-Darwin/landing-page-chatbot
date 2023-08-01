@@ -13,10 +13,6 @@
     transition: all 0.5s ease;
 }
 
-.button:hover {
-    background: linear-gradient(90deg, rgba(147, 64, 255, 1) 35%, rgba(255, 60, 95, 1) 100%);
-}
-
 /* Media query para tornar o botão responsivo para telas menores */
 @media (max-width: 769px) {
     .button {
