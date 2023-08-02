@@ -1,0 +1,24 @@
+.divPlano {
+    margin-top: 15%;
+    width: 95%;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #260E69;
+}
+
+.divPlano h2,
+.divPlano p {
+    margin-bottom: 25%;
+}
+
+.tituloPlano {
+    margin-top: 0;
+    height: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #9340FF;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
