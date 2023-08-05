@@ -22,3 +22,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .tituloPlano {
+        font-size: 30px;
+    }
+}
