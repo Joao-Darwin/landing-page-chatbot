@@ -1,0 +1,46 @@
+.containerPageInterface {
+    border: none;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 20%;
+    flex-direction: column; /* Alterado para coluna em telas menores */
+    align-items: center; /* Centraliza horizontalmente em telas menores */
+}
+
+.imgPageInterface {
+    margin-right: 0; /* Remove o espaço entre a imagem e a div de texto em telas menores */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da imagem em telas menores */
+}
+
+.tituloPageInterface {
+    color: #9340FF;
+    text-align: center; /* Centraliza o texto horizontalmente em telas menores */
+}
+
+.paragrafoPageInterface {
+    text-align: justify;
+    font-size: 20px; /* Reduz o tamanho da fonte em telas menores */
+}
+
+/* Media query para telas maiores, por exemplo, a partir de 768px */
+@media (min-width: 768px) {
+    .containerPageInterface {
+        flex-direction: row; /* Volta ao layout de linha em telas maiores */
+        justify-content: center; /* Centraliza horizontalmente em telas maiores */
+    }
+
+    .imgPageInterface {
+        margin-right: 5%; /* Recupera o espaço entre a imagem e a div de texto em telas maiores */
+        margin-bottom: 0; /* Remove o espaço abaixo da imagem em telas maiores */
+        max-width: 50%; /* Limita a largura da imagem em telas maiores */
+    }
+
+    .tituloPageInterface {
+        text-align: left; /* Alinha o texto à esquerda em telas maiores */
+    }
+
+    .paragrafoPageInterface {
+        font-size: 30px; /* Volta ao tamanho da fonte original em telas maiores */
+    }
+}
