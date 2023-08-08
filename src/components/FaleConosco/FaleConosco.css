@@ -1,0 +1,81 @@
+.containerFaleConosco {
+    width: 65%;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: flex-start; 
+    padding: 20px;
+}
+
+.logoContainerFaleConosco {
+    display: flex;
+    align-items: center;
+    margin-right: 45%;
+}
+
+.logoContainerFaleConosco h2 {
+    font-size: 35px;
+}
+
+.logoContainerFaleConosco img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.tituloFaleConosco {
+    color: #9340FF;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.divInformacoes {
+    text-align: left;
+    flex: 1;
+    display: grid;
+    grid-gap: 25px;
+}
+
+.divRedesSociais {
+    margin-top: 15px;
+}
+
+.redeSocial {
+    position: relative;
+    bottom: 0px;
+    width: 10%;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+
+.redeSocial:hover {
+    bottom: 5px;
+}
+
+/* Adicione uma media query para ajustar o layout em telas menores */
+@media (max-width: 768px) {
+    .containerFaleConosco {
+        width: 80%; 
+        margin-top: 5%; 
+        margin-bottom: 3%;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .logoContainerFaleConosco {
+        margin-right: 0px;
+    }
+
+    .logoContainerFaleConosco img {
+        width: 40px; 
+    }
+
+    .divInformacoes {
+        margin-left: 0; 
+    }
+
+    .redeSocial {
+        width: 20%;
+    }
+}

@@ -1,5 +1,6 @@
 import './App.css'
 import ApresentationPage from './components/ApresentationPage/ApresentationPage'
+import FaleConosco from './components/FaleConosco/FaleConosco'
 import InitialPage from './components/InitialPage/InitialPage'
 import PageInterfaceAmigavel from './components/PageInterfaceAmigavel/PageInterfaceAmigavel'
 import PlanosPage from './components/PlanosPage/PlanosPage'
@@ -15,6 +16,7 @@ function App() {
       <ApresentationPage />
       <PageInterfaceAmigavel />
       <PlanosPage />
+      <FaleConosco />
     </>
   )
 }
