@@ -53,6 +53,15 @@
     bottom: 5px;
 }
 
+.linkParagrafo {
+    border-bottom: 1px solid white;
+    transition: all 1.5;
+}
+
+.linkParagrafo:hover {
+    border-bottom: 2px solid white;
+}
+
 /* Adicione uma media query para ajustar o layout em telas menores */
 @media (max-width: 768px) {
     .containerFaleConosco {
