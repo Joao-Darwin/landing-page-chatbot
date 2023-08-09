@@ -16,7 +16,7 @@
 /* Media query para tornar o botão responsivo para telas menores */
 @media (max-width: 769px) {
     .button {
-        width: 300px;
+        width: 200px;
         font-size: 26px;
         /* Reduzir o tamanho da fonte para tornar o botão responsivo */
         padding: 8px 16px;
